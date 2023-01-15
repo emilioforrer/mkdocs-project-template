@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  dev:
+    build:
+      target: dev
+      context: .
+      dockerfile: docker/Dockerfile
+      args:
+        - IMAGE_VERSION=9.0.5
+    command: serve
+    ports:
+    - "8000:8000"
+    volumes: 
+      - ./:/home/developer/workspace
+      - vscode-server-extensions:/root/.vscode-server/extensions
+      - dev-bashhistory:/commandhistory
+      - vscode-server-insiders-extensions:/root/.vscode-server-insiders/extensions
+volumes:
+  vscode-server-extensions:
+  vscode-server-insiders-extensions:
+  dev-bashhistory:
