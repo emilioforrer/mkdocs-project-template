@@ -1,4 +1,4 @@
 
 run:
-	@docker-compose up
+	@ci-cd/docker/scripts/start.sh
 .PHONY: run

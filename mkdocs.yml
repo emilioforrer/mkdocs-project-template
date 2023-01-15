@@ -4,6 +4,8 @@ docs_dir: "source"
 watch:
 - source
 dev_addr: "0.0.0.0:8000"
+theme:
+  name: material
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:

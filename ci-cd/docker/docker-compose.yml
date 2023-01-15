@@ -1,13 +1,15 @@
-version: '3.8'
+version: '3.7'
 services:
   dev:
     build:
       target: dev
       context: .
-      dockerfile: docker/Dockerfile
+      dockerfile: ci-cd/docker/Dockerfile
       args:
         - IMAGE_VERSION=9.0.5
-    command: serve
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    command: ci-cd/docker/scripts/start.sh
     ports:
     - "8000:8000"
     volumes: 
