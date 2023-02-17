@@ -26,6 +26,8 @@ RUN groupadd ${DOCKER_GROUP} -g ${DOCKER_GID} && useradd -m ${DOCKER_USER} -G su
 
 RUN chown -R ${DOCKER_USER} /home/${DOCKER_USER} ${LOCAL_DIR}
 
+RUN /ci-cd/docker/scripts/install-plugins.sh
+
 RUN /ci-cd/docker/scripts/remote-container.sh
 
 WORKDIR ${APP_DIR}
