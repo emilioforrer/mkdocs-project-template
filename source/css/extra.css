@@ -1,0 +1,4 @@
+/* Maximum space for text block */
+.md-main__inner {
+  max-width: 100%; /* or 100%, if you want to stretch to full-width */
+}
