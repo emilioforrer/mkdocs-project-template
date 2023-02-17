@@ -38,7 +38,8 @@ plugins:
   - kroki:
       EnableDiagramsnet:  True
   - drawio_file
-
+extra_css:
+- css/extra.css
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
