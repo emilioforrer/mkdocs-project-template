@@ -55,7 +55,12 @@
 				"almenon.arepl",
 				"matangover.mypy",
 				"kevinglasson.cornflakes-linter",
-				"littlefoxteam.vscode-python-test-adapter"
+				"littlefoxteam.vscode-python-test-adapter",
+				"pomdtr.markdown-kroki",
+				"pomdtr.excalidraw-editor",
+				"redhat.vscode-extension-bpmn-editor",
+				"RandomFractalsInc.vscode-vega-viewer",
+				"hediet.vscode-drawio"
 			]
 		}
 	},

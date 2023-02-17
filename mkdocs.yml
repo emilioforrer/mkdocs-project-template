@@ -8,11 +8,15 @@ nav:
   - Welcome: 'index.md'
   - 'Examples': 
     - examples/diagrams/index.md
+    - examples/kroki/index.md
 theme:
   name: material
 plugins:
   - search
   - diagrams
+  - kroki:
+      EnableDiagramsnet:  True
+
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
