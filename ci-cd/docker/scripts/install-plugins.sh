@@ -3,3 +3,4 @@
 pip install mkdocs-material==${MKDOCS_VERSION}
 pip install mkdocs-diagrams
 pip install mkdocs-kroki-plugin
+pip install mkdocs-drawio-file

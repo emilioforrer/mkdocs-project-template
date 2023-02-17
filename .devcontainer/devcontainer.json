@@ -60,7 +60,10 @@
 				"pomdtr.excalidraw-editor",
 				"redhat.vscode-extension-bpmn-editor",
 				"RandomFractalsInc.vscode-vega-viewer",
-				"hediet.vscode-drawio"
+				"hediet.vscode-drawio",
+				"nopeslide.vscode-drawio-plugin-mermaid",
+				"nopeslide.vscode-drawio-plugin-wavedrom",
+				"nopeslide.vscode-drawio-plugin-rtl"
 			]
 		}
 	},

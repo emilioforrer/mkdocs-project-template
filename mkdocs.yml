@@ -9,6 +9,7 @@ nav:
   - 'Examples': 
     - examples/diagrams/index.md
     - examples/kroki/index.md
+    - examples/drawio/index.md
 theme:
   name: material
 plugins:
@@ -16,6 +17,7 @@ plugins:
   - diagrams
   - kroki:
       EnableDiagramsnet:  True
+  - drawio_file
 
 markdown_extensions:
   - pymdownx.superfences:
