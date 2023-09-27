@@ -1,3 +1,9 @@
+---
+title: Welcome page
+tags:
+ - welcome
+ - index
+---
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
@@ -27,3 +33,4 @@ graph LR
   D --> B;
   B ---->|No| E[Yay!];
 ```
+
